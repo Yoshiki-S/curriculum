@@ -1,3 +1,5 @@
+import sun.security.ssl.KAKeyDerivation;
+
 /** 
  * Task1-5 : 課題内容
  *
@@ -10,7 +12,7 @@ public class Task1_5 {
     public static void main(String[] args) {
 
         // ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fluits を作成してください。
-      String [] fluit = {"みかん","りんご","ぶどう","メロン"};
+      String [] fluits ={ "みかん","りんご","ぶどう","メロン"};
 
         // ② for文を使って①で作成した配列を出力しなさい。
       for (int i = 0; i < fluits.length; i++) {
@@ -40,11 +42,16 @@ public class Task1_5 {
         *     8 || 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 |
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
-      for (int k = 1; i <= 9; i++) { 
-         for (int j = 1; j <= 9; j++) { 
-           System.out.print( (k)+"||" ); 
-           System.out.print( (i * j)+"|" ); 
-    } 
-           System.out.println(); 
+      for (int l = 1; l <= 9; l++) {
+        System.out.println(l + "||");
+          
+       for (int k = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+        
+          System.out.print((i* j) + " ");
+          }
+          System.out.println("");
     }
+}
+}
 }
