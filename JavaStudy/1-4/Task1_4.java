@@ -7,7 +7,7 @@
  */
 public class Task1_4 {
 
-  // 定数（条件）
+  // 定数（）
   // ① 名前とパスワードの定数を定義してください。
   String name ;
   String pass ; 
