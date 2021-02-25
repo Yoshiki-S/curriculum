@@ -18,8 +18,8 @@ public class Check{
           System.out.print(data[i] + " ");
       }
       System.out.println();
-      for (int i = 0; i < 4; i++) {
-          for (int j = 5-1; j >i; j--) {
+      for (int i = 0; i < data.length-1; i++) {
+          for (int j = 4; j >i; j--) {
               /*
               * 問3
               * 以下、配列の添字を入れてソートを完成させなさい
@@ -32,7 +32,7 @@ public class Check{
           }
       }
       for(int i = 0; i < data.length; i++){
-          System.out.print(data[i] + " ");
+         System.out.print(data[i] + " ");
       }
   }
 }
